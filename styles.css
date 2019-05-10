@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+#topContent{
+  margin-top: 14px;
+}
+
+#bottomContent {
+    margin-top: 20px;
+}
+
+#hiddenLastItem {
+	flex-shrink: 0;
+	width: 50px;
+  margin-left: 25px;
+}
+
+.container {
+  position: relative;
+  margin-top: 25px;
+}
+
+.sliderWrapper {
+  height: 295px;
+  overflow-y: hidden;
+  position: absolute;
+  top: 176px;
+  left: 0;
+  width: 375px;
+}
+
+.slider {
+	display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-scroll-snap-type: mandatory;
+  -webkit-scroll-snap-destination: 50% 50%;  
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 20px;
+}
+
+.slider > img {
+  flex-shrink: 0;
+  width: 280px;
+  height: 295px;
+  margin-left: 25px;
+  scroll-snap-align: center;
+  -webkit-scroll-snap-coordinate: 50% 50%;
+}
