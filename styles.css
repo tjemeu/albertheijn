@@ -45,7 +45,7 @@ img {
   padding-bottom: 20px;
 }
 
-.slider > img {
+.slider img {
    flex-shrink: 0;
    width: 280px;
    height: 295px;
@@ -53,12 +53,3 @@ img {
    scroll-snap-align: center;
    -webkit-scroll-snap-coordinate: 50% 50%;
  }
-
-.slider > a {
-  flex-shrink: 0;
-  width: 280px;
-  height: 295px;
-  margin-left: 25px;
-  scroll-snap-align: center;
-  -webkit-scroll-snap-coordinate: 50% 50%;
-}
