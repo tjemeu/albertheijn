@@ -49,7 +49,6 @@ img {
   flex-shrink: 0;
   width: 280px;
   height: 295px;
-  margin-left: 25px;
   scroll-snap-align: center;
   -webkit-scroll-snap-coordinate: 50% 50%;
 }
